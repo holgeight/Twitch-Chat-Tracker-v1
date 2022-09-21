@@ -1,23 +1,38 @@
 .main {
-  text-decoration: none;
-}
-.navbar {
-  background: black;
-  color: white;
   display: flex;
+  flex-direction: column;
+  min-height: 40vh;
   align-items: center;
-  justify-content: space-evenly;
-  width: 100vw;
-  height: 10vh;
-  text-align: center;
-  text-decoration: none;
-}
-.text {
-  color: white;
-  text-decoration: none;
 }
 
-a {
-  color: white;
-  text-decoration: none;
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input {
+  width: 200px;
+  font-size: 20px;
+  margin: 5px 0;
+  height: 20px;
+}
+
+button {
+  width: 165px;
+  height: 50px;
+  margin: 0 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
 }

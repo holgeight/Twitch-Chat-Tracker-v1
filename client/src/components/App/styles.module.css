@@ -1,14 +1,25 @@
+html {
+  /* this makes sure the padding and the border is included in the box sizing */
+  box-sizing: border-box;
+}
+html body {
+  padding: 0;
+  margin: 0;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   min-height: 80vh;
+  margin: 0;
+  padding: 0;
+  background: rgb(white);
 }
 
 .text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
 }
 
 .form {
@@ -24,10 +35,14 @@
 }
 
 button {
-  width: 150px;
-  height: 25px;
+  width: 250px;
+  height: 50px;
 }
 
 button:hover {
   cursor: pointer;
+}
+
+h1 {
+  font-size: 50px;
 }
